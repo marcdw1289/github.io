@@ -43,7 +43,7 @@
       <img class="u-photo" alt="My profile photo" src="__your_image__" />
     -->
     <h1>
-      I'm <span class="p-name">Marc D.</span>.
+      I'm <span class="p-name">Marc Williams</span>.
     </h1>
 
     <p class="p-note">
@@ -51,37 +51,10 @@
     </p>
 
     <ul>
+      <!-- Replace __this_page__ with your domain -->
+      <li><a class="u-uid u-url" href="http://digisensei.org">Marc's New Website</a></li>
 
       <!-- Update or remove the below links! -->
-      <div id="hcard-Marc-D.-Williams" class="vcard">
- <a class="url fn n" href="https://www.digisensei.org/">  <span class="given-name">Marc</span>
-  <span class="additional-name">D.</span>
-  <span class="family-name">Williams</span>
-</a>
- <div class="org">DigiSensei Group</div>
- <a class="email" href="mailto:indiemarc@damon.anonaddy.com">EMail</a>
- <div class="adr">
-  <span class="locality">Baldwin Park</span>
-, 
-  <span class="region">CA</span>
-
-  <span class="country-name">United States</span>
-
- </div>
- <a rel="me" class="url" href="aim:goim?screenname=wilmarcdw@yahoo.com">AIM</a>
- <a rel="me" class="url" href="xmpp:marcdw@nerdica.net">XMPP</a>
- <a rel="me" class="url" href="https://pixelfed.de/marcdw">Pixelfed</a>
- <a rel="me" class="url" href="https://nerdica.net/profile/marcdw">Nerdica (Friendica)</a>
- <a rel="me" class="url" href="https://diasp.org/people/d35340a02e200138b2df047d7b62795e">diaspora*</a>
- <a rel="me" class="url" href="https://mastodon.social/@marcdw">Mastodon</a>
- <a rel="me" class="url" href="https://mastodon.social/@marcdw">Lemmy</a>
- <a rel="me" class="url" href="https://matrix.to/#/@marcdw:matrix.org">Matrix</a>
- <a rel="me" class="url" href="https://t.me/marcdw">Telegram</a>
- <a rel="me" class="url" href="https://libre.fm/user/marcdw">Libre.fm</a>
- <a rel="me" class="url" href="https://bandcamp.com/wilmarcdw">Bandcamp</a>
- 
-<div><span class="category">Computing</span>, <span class="category">Linux</span>, <span class="category">Android</span>, <span class="category">#NoAIClub</span></div><p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
-</div>
       
       <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
       <li>Github: <a class="u-url" href="https://github.com/marcdw1289" rel="me">@marcdw1289</a></li>
