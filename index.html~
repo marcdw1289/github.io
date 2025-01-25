@@ -83,7 +83,7 @@
 </div>
       
       <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
-      <li>Github: <a class="u-url" href="https://github.com/marcdw1289" rel="me">@marcdw1289</a></li>
+      <li>Github: <a rel="me" class="u-url" href="https://github.com/marcdw1289">@marcdw1289</a></li>
       
     </ul>
   </main>
