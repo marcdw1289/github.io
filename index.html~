@@ -108,27 +108,41 @@
         <li>Github: <a rel="me" class="u-url"
             href="https://github.com/marcdw1289">@marcdw1289</a></li>
       </ul>
+      
+      <hr> 
+      <article class="h-entry">
+	<h1 class="p-name">Reliving the good ole days</h1>
+	<p>Published by <a class="p-author h-card" href="http://www.digisensei.org">Marc D.</a>
+	   on <time class="dt-published" datetime="2025-01-27 03:00:00">27<sup>th</sup> January 2025</time></p>
+
+	<p class="p-summary">Windows 3.x and DOS Internet.</p>
+
+	<div class="e-content">
       <p><br>
         Way back in 1998 I put up my first web page. It was about
         Windows 3 themes and tools. Hosted at GeoCities.<br>
         I gave up computing around 2014 (making a return during Covid),
         keeping a single laptop active for emergency Android duties
-        (unlocking, unbricking, etc.). I figured the web page was long
-        lost but a couple of years ago I found out it was archived at <a
+        (unlocking, unbricking, etc.).
+        <br>
+        I figured the web page was long
+        lost but a couple of years ago I found out it was archived at <a class="u-url"
           moz-do-not-send="true" href="https://www.oocities.org/">OoCities</a>
         in all its crude glory. Check out the list of hardware I used at
         the time, linked therein.<br>
-        <a moz-do-not-send="true"
+        <a class="u-url" moz-do-not-send="true"
           href="https://www.oocities.org/wilmarcdw/">Windows 3.x Schemes
           &amp; Themes</a><br>
       </p>
       <p>In the years prior I was really into accessing the internet via
         DOS, mostly on the Tandy 1000HX. Give it a look see.<br>
-        <a moz-do-not-send="true"
+        <a class="u-url" moz-do-not-send="true"
           href="http://www.oldskool.org/guides/tvdog/">Tvdog's Archive
           (Home Page)</a><br>
         <br>
       </p>
+        </div>
+      </article>
       <ul>
       </ul>
       <ul>
