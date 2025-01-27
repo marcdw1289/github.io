@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-  <!-- To use social readers via microsub, follow these steps.
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+    <!-- To use social readers via microsub, follow these steps.
     (Details: https://indieweb.org/Microsub#Getting_Started)
     1. After publishing this to your domain, sign in to https://aperture.p3k.io/login with your domain
     2. You will see a <link> tag displayed on your dashboard that looks like:
@@ -14,10 +15,9 @@
     3. Copy that <link> tag and paste it after this HTML comment.
     4. Publish the updated page!
    -->
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/1012">
-
-  <title>Marc's New Website</title>
-  <style>
+    <link rel="microsub" href="https://aperture.p3k.io/microsub/1012">
+    <title>Marc's New Website</title>
+    <style>
     @media (prefers-color-scheme: dark) {
       html { background-color: #111111; color: #fbfbfb; }
       a { color: #ca8465; }
@@ -36,59 +36,103 @@
     img.u-photo { border-radius: 50%; }
     ul { padding: 0; list-style: none; }
   </style>
-</head>
-
-<body>
-  <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
-  <main class="h-card" rel="author">
-    <!-- Uncomment and add __your_image__ to display a photo! -->
-      <img class="u-photo" alt="My profile photo" src="./botanus.png" />
-    <h1>
-      I'm <span class="p-name">Marc D.</span>.
-    </h1>
-
-    <p class="p-note">
-      ...and I am a human on the Internet.<br>
-      Just a landing page 'til I figure out what to do here.
-    </p>
-
-    <ul>
-
-      <!-- Update or remove the below links! -->
-      <div id="hcard-Marc-D.-Williams" class="vcard">
- <a class="url fn n" href="https://www.digisensei.org/">  <span class="given-name">Marc</span>
-  <span class="additional-name">D.</span>
-  <span class="family-name">Williams</span>
-</a>
- <div class="org">DigiSensei Group</div>
- <a class="email" href="mailto:indiemarc@damon.anonaddy.com">EMail</a>
- <div class="adr">
-  <span class="locality">Baldwin Park</span>
-, 
-  <span class="region">CA</span>
-
-  <span class="country-name">United States</span>
-
- </div>
- <a class="url" href="xmpp:marcdw@nerdica.net">XMPP</a>
- <a rel="me" class="url" href="https://pixelfed.de/marcdw">Pixelfed</a>
- <a rel="me" class="url" href="https://nerdica.net/profile/marcdw">Nerdica (Friendica)</a>
- <a rel="me" class="url" href="https://diasp.org/people/d35340a02e200138b2df047d7b62795e">diaspora*</a>
- <a rel="me" class="url" href="https://mastodon.social/@marcdw">Mastodon</a>
- <a rel="me" class="url" href="https://lemmy.ml/u/marcdw">Lemmy</a>
- <a rel="me" class="url" href="https://matrix.to/#/@marcdw:matrix.org">Matrix</a>
- <a rel="me" class="url" href="https://t.me/marcdw">Telegram</a>
- <a rel="me" class="url" href="https://libre.fm/user/marcdw">Libre.fm</a>
- <a rel="me" class="url" href="https://bandcamp.com/wilmarcdw">Bandcamp</a>
- 
-<div><span class="category">Computing</span>, <span class="category">Linux</span>, <span class="category">Android</span>, <span class="category">#NoAIClub</span></div><p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
-</div>
-      
-      <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
-      <li>Github: <a rel="me" class="u-url" href="https://github.com/marcdw1289">@marcdw1289</a></li>
-      
-    </ul>
-  </main>
-</body>
-
+  </head>
+  <body>
+    <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
+    <main class="h-card" rel="author">
+      <!-- Uncomment and add __your_image__ to display a photo! --> <img
+        class="u-photo" alt="My profile photo" src="./botanus.png">
+      <h1> I'm <span class="p-name">Marc D.</span>. </h1>
+      <p class="p-note"> ...and I am a human on the Internet.<br>
+        Just a landing page 'til I figure out what to do here. </p>
+      <ul type="disc">
+        <!-- Update or remove the below links! -->
+        <div id="hcard-Marc-D.-Williams" class="vcard"> <a class="url
+            fn n" href="https://www.digisensei.org/"> <span
+              class="given-name">Marc</span> <span
+              class="additional-name">D.</span> <span
+              class="family-name">Williams</span> </a>
+          <div class="org">DigiSensei Group</div>
+          <a class="u-email" href="mailto:indiemarc@damon.anonaddy.com"
+            moz-do-not-send="true">EMail</a>
+          <div class="adr"> <span class="locality">Baldwin Park</span>
+            , <span class="region">CA</span> <span
+              class="country-name">United States</span> </div>
+          <br>
+          <a href="xmpp://marcdw@nerdica.net" title="xmpp: marcdw at
+            nerdica.net" rel="me" class="u-url"> <img class="centered"
+              src="./images/ds-xmpp.svg" alt="xmpp:marcdw@nerdica.net"
+              style="border:0"></a> <a rel="me" class="u-url"
+            href="https://pixelfed.de/marcdw" title="marcdw at
+            pixelfed.de"> <img class="centered"
+              src="./images/ds-pixelfed.svg"
+              alt="https://pixelfed.de/marcdw"></a> <a rel="me"
+            class="u-url" href="https://nerdica.net/profile/marcdw"
+            title="marcdw at nerdica.net"> <img class="centered"
+              src="./images/ds-friendica.svg"
+              alt="https://nerdica.net/profile/marcdw"></a> <a rel="me"
+            class="u-url"
+            href="https://diasp.org/people/d35340a02e200138b2df047d7b62795e"
+            title="diaspora*"> <img class="centered&quot;"
+              src="./images/ds-diaspora.svg"
+              alt="https://diasp.org/people/d35340a02e200138b2df047d7b62795e"></a>
+          <a rel="me" class="u-url"
+            href="https://mastodon.social/@marcdw" title="@marcdw at
+            mastodon.social"> <img class="centered"
+              src="./images/ds-mastodon.svg"
+              alt="https://mastodon.social/@marcdw"></a> <a rel="me"
+            class="u-url" href="https://lemmy.ml/u/marcdw" title="marcdw
+            at lemmy.ml"> <img class="centered"
+              src="./images/ds-lemmy.svg"
+              alt="https://lemmy.ml/u/marcdw"></a> <a rel="me"
+            class="u-url" href="https://matrix.to/#/@marcdw:matrix.org"
+            title="@marcdw at matrix.org"> <img class="centered"
+              src="./images/ds-matrix.svg"
+              alt="https://matrix.to/#/@marcdw:matrix.org"></a><br>
+          &nbsp;<br>
+          <li>Telegram: <a rel="me" class="u-url" href="https://t.me/marcdw">@marcdw</a></li><br>
+          <li>Libre.fm: <a rel="me" class="u-url" href="https://libre.fm/user/marcdw">@marcdw</a></li><br>
+          <li>Bandcamp: <a rel="me" class="u-url"
+            href="https://bandcamp.com/wilmarcdw">@wilmarcdw</a></li> <br>
+          <br>
+          <div><span class="category">Computing</span>, <span
+              class="p-category">Linux</span>, <span class="category">Android</span>,
+            <span class="category">#NoAIClub</span></div>
+          <p style="font-size:smaller;">This <a
+              href="http://microformats.org/wiki/hcard">hCard</a>
+            created with the <a
+              href="http://microformats.org/code/hcard/creator">hCard
+              creator</a>.</p>
+        </div>
+        <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
+        <li>Github: <a rel="me" class="u-url"
+            href="https://github.com/marcdw1289">@marcdw1289</a></li>
+      </ul>
+      <p><br>
+        Way back in 1998 I put up my first web page. It was about
+        Windows 3 themes and tools. Hosted at GeoCities.<br>
+        I gave up computing around 2014 (making a return during Covid),
+        keeping a single laptop active for emergency Android duties
+        (unlocking, unbricking, etc.). I figured the web page was long
+        lost but a couple of years ago I found out it was archived at <a
+          moz-do-not-send="true" href="https://www.oocities.org/">OoCities</a>
+        in all its crude glory. Check out the list of hardware I used at
+        the time, linked therein.<br>
+        <a moz-do-not-send="true"
+          href="https://www.oocities.org/wilmarcdw/">Windows 3.x Schemes
+          &amp; Themes</a><br>
+      </p>
+      <p>In the years prior I was really into accessing the internet via
+        DOS, mostly on the Tandy 1000HX. Give it a look see.<br>
+        <a moz-do-not-send="true"
+          href="http://www.oldskool.org/guides/tvdog/">Tvdog's Archive
+          (Home Page)</a><br>
+        <br>
+      </p>
+      <ul>
+      </ul>
+      <ul>
+      </ul>
+    </main>
+  </body>
 </html>
