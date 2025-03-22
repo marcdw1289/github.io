@@ -35,14 +35,14 @@
     }
     img.u-photo { border-radius: 50%; }
     ul { padding: 0; list-style: none; }
-  </style>
+    </style>
   </head>
   <body>
     <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
     <main class="h-card" rel="author">
       <!-- Uncomment and add __your_image__ to display a photo! --> <img
         class="u-photo" alt="My profile photo" src="./botanus.png">
-      <h1> I'm <span class="p-name">Marc D.</span>. </h1>
+      <h1> I'm <span class="p-name">Marc D.</span></h1>
       <p class="p-note"> ...and I am a human on the Internet.<br>
         Just a landing page 'til I figure out what to do here. </p>
       <ul type="disc">
@@ -59,12 +59,12 @@
             , <span class="region">CA</span> <span
               class="country-name">United States</span> </div>
           <br>
-          <a href="xmpp://marcdw@nerdica.net" title="xmpp: marcdw at
+          <a href="https://xmpp.link/#marcdw@digisensei.net" title="xmpp: marcdw at
             nerdica.net" rel="me" class="u-url"> <img class="centered"
               src="./images/ds-xmpp.svg" alt="xmpp:marcdw@nerdica.net"
-              style="border:0"></a> <a rel="me" class="u-url"
-            href="https://pixelfed.de/marcdw" title="marcdw at
-            pixelfed.de"> <img class="centered"
+              width="32" height="32"></a>
+          <a rel="me" class="u-url" href="https://pixelfed.de/marcdw"
+            title="marcdw at pixelfed.de"> <img class="centered"
               src="./images/ds-pixelfed.svg"
               alt="https://pixelfed.de/marcdw"></a> <a rel="me"
             class="u-url" href="https://nerdica.net/profile/marcdw"
@@ -88,16 +88,27 @@
             class="u-url" href="https://matrix.to/#/@marcdw:matrix.org"
             title="@marcdw at matrix.org"> <img class="centered"
               src="./images/ds-matrix.svg"
-              alt="https://matrix.to/#/@marcdw:matrix.org"></a><br>
+              alt="https://matrix.to/#/@marcdw:matrix.org"></a> <a
+            rel="me" class="u-url" href="https://t.me/marcdw"
+            title="@marcdw at matrix.org"><img class="centered"
+              src="./images/simple/telegram.svg" title="@marcdw at
+              Telegram" alt="https://t.me/marcdw" moz-do-not-send="true"
+              width="32" height="32"></a><br>
           &nbsp;<br>
-          <li>Telegram: <a rel="me" class="u-url" href="https://t.me/marcdw">@marcdw</a></li><br>
-          <li>Libre.fm: <a rel="me" class="u-url" href="https://libre.fm/user/marcdw">@marcdw</a></li><br>
+          <li>Libre.fm: <a rel="me" class="u-url"
+              href="https://libre.fm/user/marcdw">@marcdw</a></li>
+          <br>
           <li>Bandcamp: <a rel="me" class="u-url"
-            href="https://bandcamp.com/wilmarcdw">@wilmarcdw</a></li> <br>
+              href="https://bandcamp.com/wilmarcdw">@wilmarcdw</a></li>
+          <br>
+          /e/OS Community: <a
+            href="https://community.e.foundation/u/marcdw/" rel="me"
+            class="u-url">marcdw</a><br>
           <br>
           <div><span class="category">Computing</span>, <span
               class="p-category">Linux</span>, <span class="category">Android</span>,
-            <span class="category">#NoAIClub</span></div>
+            <a href="https://no-ai.club/"><span
+                class="category">#NoAIClub</span></a></div>
           <p style="font-size:smaller;">This <a
               href="http://microformats.org/wiki/hcard">hCard</a>
             created with the <a
@@ -105,42 +116,53 @@
               creator</a>.</p>
         </div>
         <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
-        <li>Github: <a rel="me" class="u-url"
-            href="https://github.com/marcdw1289">@marcdw1289</a></li>
+        <a rel="me" class="u-url" href="https://github.com/marcdw1289"><img
+            class="centered"
+            src="images/simple/github.svg"
+            alt="https://github.com/marcdw1289" width="32" height="32"></a>
       </ul>
-      
-      <hr> 
+      <hr>
       <article class="h-entry">
-	<h1 class="p-name">Reliving the good ole days</h1>
-	<p>Published by <a class="p-author h-card" href="http://www.digisensei.org">Marc D.</a>
-	   on <time class="dt-published" datetime="2025-01-27 03:00:00">27<sup>th</sup> January 2025</time></p>
-
-	<p class="p-summary">Windows 3.x and DOS Internet.</p>
-
-	<div class="e-content">
-      <p><br>
-        Way back in 1998 I put up my first web page. It was about
-        Windows 3 themes and tools. Hosted at GeoCities.<br>
-        I gave up computing around 2014 (making a return during Covid),
-        keeping a single laptop active for emergency Android duties
-        (unlocking, unbricking, etc.).
-        <br>
-        I figured the web page was long
-        lost but a couple of years ago I found out it was archived at <a class="u-url"
-          moz-do-not-send="true" href="https://www.oocities.org/">OoCities</a>
-        in all its crude glory. Check out the list of hardware I used at
-        the time, linked therein.<br>
-        <a class="u-url" moz-do-not-send="true"
-          href="https://www.oocities.org/wilmarcdw/">Windows 3.x Schemes
-          &amp; Themes</a><br>
-      </p>
-      <p>In the years prior I was really into accessing the internet via
-        DOS, mostly on the Tandy 1000HX. Give it a look see.<br>
-        <a class="u-url" moz-do-not-send="true"
-          href="http://www.oldskool.org/guides/tvdog/">Tvdog's Archive
-          (Home Page)</a><br>
-        <br>
-      </p>
+        <h2 class="p-name">Reliving the good ole days</h2>
+        <p>Published by <a class="p-author h-card"
+            href="http://www.digisensei.org">Marc D.</a> on <time
+            class="dt-published" datetime="2025-01-27 03:00:00">27<sup>th</sup>
+            January 2025</time></p>
+        <p class="p-summary"><b><i>Windows 3.x and DOS Internet.</i></b></p>
+        <div class="e-content">
+          <p><br>
+            Way back in 1998 I put up my first web page. It was about
+            Windows 3 themes and tools. Hosted at GeoCities.<br>
+            I gave up computing around 2014 (making a return during
+            COVID), keeping a single laptop active for emergency Android
+            duties (unlocking, unbricking, etc.). <br>
+            I figured the web page was long lost but a couple of years
+            ago I found out it was archived at <a class="u-url"
+              href="https://www.oocities.org/">OoCities</a> in all its
+            crude glory. <br>
+            <a class="u-url" href="https://www.oocities.org/wilmarcdw/">Windows 3.x Schemes &amp; Themes</a><br>
+            <br>
+          </p>
+          <p> Linked therein is my 1998 hardware list. Noticed that on
+            some web browsers the page doesn't look very well. Like
+            white text on a very light lime-ish/yellowish background.<br>
+            Since I can't edit that file I decided to reproduce it here
+            along with some of the other computer systems I've had up
+            until the present day.<br>
+            <a class="u-url"
+              href="https://www.digisensei.org/hardware.html">My
+              Hardware Over The Years</a><br>
+            <br>
+          </p>
+          <p>In the years prior I was really into accessing the internet
+            via DOS, mostly on the Tandy 1000HX. Give it a look see.<br>
+            <a class="u-url"
+              href="http://www.oldskool.org/guides/tvdog/">Tvdog's
+              Archive (Home Page)</a><br>
+            <br>
+          </p>
+          <p><a href="#top">TOP</a><br>
+          </p>
         </div>
       </article>
       <ul>
