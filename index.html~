@@ -53,8 +53,7 @@
               class="additional-name">D.</span> <span
               class="family-name">Williams</span> </a>
           <div class="org">DigiSensei Group</div>
-          <a class="u-email" href="mailto:marcdw@omg.lol"
-            moz-do-not-send="true">EMail</a>
+          <a class="u-email" href="mailto:marcdw@omg.lol">EMail</a>
           <div class="adr"> <span class="locality">Baldwin Park</span>
             , <span class="region">CA</span> <span
               class="country-name">United States</span> </div>
@@ -141,7 +140,7 @@
               href="https://www.oocities.org/">OoCities</a> in all its
             crude glory. <br>
 	    Decided to scrape the archived page, edit, and put it back up locally. Later I will figure out what links still work.<br>
-            <a class="u-url" href="https://www.digisensei.org/win3/">Windows 3.x Schemes &amp; Themes</a><br>
+            <a class="u-url u-uid" href="https://www.digisensei.org/win3/">Windows 3.x Schemes &amp; Themes</a><br>
             <br>
           </p>
           <p> Linked therein is my 1998 hardware list. Noticed that on
