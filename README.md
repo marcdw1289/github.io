@@ -1,3 +1,6 @@
+Archived.
+Repo moved to https://codeberg.org/marcdw/pages
+
 # blank-gh-site
 
 This repository provides minimal HTML for starting a new web site!
